@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+	<name>CGrocket Gallery Module</name>
+	<author>cgrocket.com</author>
+	<creationDate>July 2012</creationDate>
+	<copyright>Copyright (C) 2012 cgrocket.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@cgrocket.com</authorEmail>
+	<authorUrl>www.cgrocket.com</authorUrl>
+	<version>1.0.0</version>
+	<description><![CDATA[
+		<div class="cg_description">
+			<h3>CGrocket Gallery Module</h3>	
+			<a href="http://www.cgrocket.com" target="_blank"><img src="http://www.cgrocket.com/images/rocket_mini.jpg"></a>
+			<p>Thank you for using our extension. If you find any issues or any ideas to improve the extension, please send us an email or post to the forum. We appreciate your help. Also we will release two templetes per month, you will easy to find a nice template for your joomla site. Please check our products here: <a href='http://www.cgrocket.com/'>Join our Clubs Now</a> to download all templates or extensions.</p>
+			<h3>Upgrade versions</h3>
+			<p>Your current versions is 1.0. <a target="_blank" href="http://www.cgrocket.com">Find our latest versions now</a>
+			</p>
+			<h3>About CGrocket.com & copyright</h3>	
+			<p>CGROCKET.COM is Professional Joomla template provider. We are focused on creating unique, attractive and clean templates without loosing flexibility and simplicity of customization
+			</p>
+			Copyright 2011 - 2012 <a target="_blank" href="http://www.cgrocket.com">http://www.cgrocket.com</a>	
+		</div>
+	]]>	
+	</description>
+	<files>
+		<filename module="mod_cgrocket_simple_gallery">mod_cgrocket_simple_gallery.php</filename>
+		<filename>helper.php</filename>
+		<filename>class.cgThumbnail.php</filename>
+		<filename>index.html</filename>
+		<folder>elements/</folder>
+		<folder>tmpl/</folder>
+		<folder>scripts/</folder>
+	</files>
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_cgrocket_simple_gallery/elements">
+			<fieldset name="basic">
+				<field name="path" type="foldertree" default="" directory="images" filter="" label="Image directory" description="Select a image directory" />
+				<field name="thumbwidth" type="text" default="100" label="Thumbnail Width (in px)" description="Width of Thumbnail without px" />
+				<field name="thumbheight" type="text" default="100" label="Thumbnail Height (in px)" description="Height of Thumbnail without px" />
+				<field name="thumbratio" type="radio" default="1" label="Keep Aspect Ratio" description="">
+					<option value="0">No</option>
+					<option value="1">yes</option>
+				</field>
+				<field name="style" type="textarea" rows="10" cols="40" default="border:1px solid #DDD; margin:0 5px 10px 5px; padding:5px; background:#fff;" label="CSS" description="CSS" />
+				<field name="usefade" type="radio" default="1" label="Use Fade Effect" description="">
+					<option value="0">No</option>
+					<option value="1">yes</option>
+				</field>					
+				<field name="normal_opacity" type="text" default="1" label="Normal Opacity" description="Width of Thumbnail without px" />
+				<field name="hover_opacity" type="text" default="0.5" label="Hover Opacity" description="Height of Thumbnail without px" />			
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+				<field name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+					<option value="1">Use global</option>
+					<option value="0">No caching</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

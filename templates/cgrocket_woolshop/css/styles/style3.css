@@ -1,0 +1,393 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on CGrocket Framework   
+# ---------------------------------------------------------------
+# Author - CGrocket http://www.cgrocket.com
+# Copyright (C) 2011 - 2011 CGrocket.com. All Rights Reserved.
+# license - PHP files are licensed under  GNU/GPL V2
+# license - CSS  - JS - IMAGE files  are Copyrighted material 
+# Websites: http://www.cgrocket.com - http://www.leweb2.com
+-----------------------------------------------------------------*/
+
+body.bg{background:#fff url(../../images/bg/bg-body2.png) repeat;}
+a{color:#9bbf4c}
+a:hover,a:active,a:focus{color:#000}
+
+/* logo */
+a#logo{background:url(../../images/styles/style3/logo.png) no-repeat 0 50%}
+
+/*Module type XHTML*/
+.mod-wrapper,.mod-wrapper-flat {
+background:#9bbf4cposition:relative
+}
+.mod-wrapper {background:transparent}
+.mod-wrapper {
+border:0px dotted #9bbf4c;
+padding:0px
+}
+.module_none .mod-wrapper {
+border:0;
+background:none;
+padding:0
+}
+.module_none  .mod-wrapper .mod-inner {border:0}
+
+.mod-wrapper h3.header,.module_dark h3.header{
+font-family: 'Handlee', cursive;
+color: #fff;
+font-size:26px;
+font-weight:700;
+line-height:normal;
+border-bottom:0px dotted #ccc;
+margin:0 0 10px;
+padding: 13px 0px;
+}
+
+.module_none .mod-wrapper h3 {
+margin:0 0 10px;
+padding: 5px 0px;
+}
+
+.module_text .mod-wrapper h3.header {
+font-size:9px;
+text-align:center
+}
+
+.mod-wrapper ul{
+list-style:none;
+margin:0;
+padding:0
+}
+.mod-wrapper li{
+background-image:url(../../images/styles/style3/here.png);
+background-position:0 11px;
+background-repeat:no-repeat;
+border-bottom:1px dotted #ccc;
+display:block;
+padding:3px 10px 3px 16px;
+font-size:12px;
+font-weight:400;
+}
+.mod-wrapper li li{
+margin-left:10px;
+border-bottom:0!important
+}
+.mod-wrapper li a{text-decoration:none}
+.mod-wrapper li:hover > a, .mod-wrapper li.active > a{
+text-decoration:none
+}
+
+/* Search */
+#search div.mod-search,#search div.finder{background:transparent url(../../images/styles/style3/bg-input-search.png) no-repeat top right}
+#search input.button{
+background:url(../../images/styles/style3/bg-button-search.png) 0 0 no-repeat;
+border:0 none;
+cursor:pointer;
+height:28px;
+width:110px;
+margin:0!important;
+text-indent:-999em;
+float:left;
+overflow:hidden
+}
+
+/*To Top*/
+a#topofpage {background-image: url(../../images/gototop.png)}
+#cg-rocket {
+background:none;
+color:#000;
+text-align:left;
+float: left;
+}
+#cg-mid {
+background:#9bbf4c;
+color:#fff;
+border-top:2px solid #a4c855
+}
+#cg-bottom {
+background:#9bbf4c url(../../images/styles/style3/bg-module-bottom.png) repeat-x top;
+color:#fff;
+border-top:0px solid #a4c855;
+}
+
+#cg-footer {
+background:#8eb23d;
+font-size:14px;
+color:#fff;
+border-top:2px solid #a4c855;
+}
+#cg-footer a:link, #cg-footer a:visited {
+color:#fff;
+font-size:12px;
+}
+#cg-bottom a:link, #cg-bottom a:visited {
+border-right: 0px solid #ccc;
+color:#fc74a4;
+font-size:12px;
+}
+
+/*Top Panel*/
+#cg-toppanel{border:1px solid #9bbf4c!important;border-top:0!important}
+#cg-top {color:#fff!important;background:#9bbf4c!important}
+.handler-left{background:url(../../images/toppanel-l.png) no-repeat 0 0!important}
+.handler-right{background:url(../../images/toppanel-r.png) no-repeat 100% 0!important}
+.handler-mid{background:url(../../images/toppanel-m.png) repeat-x 0 0!important}
+
+/*Module Dark*/
+.module_dark .mod-wrapper{background:#9bbf4c;color:#fff;border:0!important}
+.module_dark h3.header{
+background:#9bbf4c;
+color:#fff;
+border-bottom:1px dashed #ccc!important;
+border-top:1px dashed #ccc;
+padding: 5px 0px;
+}
+.module_dark li{border-bottom:1px dashed #9bbf4c!important}
+.module_dark a{color:#fff}
+
+/*Module Cart*/
+.module_cart .mod-wrapper {background:#9bbf4c;
+background-image: url("../../images/cart.png" );
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 10px 5px;
+float: left;
+width: 200px;
+color:#ccc;
+border:0!important;
+text-align:center;
+}
+.module_cart h3.header{
+background:none;
+color:#fff;
+padding: 5px 0px;
+border-top:0px dashed #ccc;
+text-align:center;
+}
+.module_cart li{border-bottom:1px dashed #9bbf4c!important}
+.module_cart a{color:#fff}
+
+#cg-bottom .module li a, #cg-bottom .module_menu li a,#cg-mid .module li a, #cg-mid .module_menu li a, #cg-top .module li a, #cg-top .mudule_menu li a{color:#fff}
+.module_dark img.border, .module_dark img.cg-news-image{border:1px solid #9bbf4c}
+.module_dark div .cg-news-item-row {border-bottom: 1px dashed #9bbf4c !important}
+
+/*Joomla*/
+#form-login-username input,#form-login-password input{background-color:#fff;color:#666;border:1px dotted #ccc}
+#form-login-username input:hover,#form-login-password input:hover{background-color:#fff;color:#666;border:1px dotted #9bbf4c}
+.adminform button,#adminForm button,.button,a.readon,a.readmore,input[type=submit],input[type=button]{background:#9bbf4c}
+.adminform button:hover,#adminForm button:hover,.button:hover,a.readon:hover,a.readmore:hover,input[type=submit]:hover,input[type=button]:hover{background:#9bbf4c}
+
+/* Acymailing ---*/
+table.acymailing_form input.inputbox {
+	width: 90%;
+	background: #9bbf4c;
+	color: #fff;
+	border:1px dotted #e3efc8
+}
+
+table.acymailing_form input.inputbox:hover {
+	border-color: #fff;
+}
+
+table.acymailing_form input.inputbox:focus,
+textarea:focus {
+	border-color: #fff;
+}
+table.acymailing_form input.button,
+div.acymailing_form p.acysubbuttons input.button {
+	background:	#9bbf4c;
+	border: solid 1px #e3efc8;
+	color: #fff;
+}
+#header {background:#fff url(../../images/bg/bg-body2.png) repeat;}
+.cg-wrap{
+background:#fff url(../../images/bg/bg-body2.png) repeat;
+margin-left:auto;
+margin-right:auto;
+}
+.nsrocket.rocket-vm .rocket-addtocart {
+background:none;
+background-image: url("../../images/styles/style3/add-to-cart.png" );
+background-repeat: repeat left;
+background-attachment: scroll;
+background-position: 0px;
+width: 135px;
+text-align:right;
+float:right;
+}
+.general-bg,input.custom-attribute,input.quantity-input,.manufacturer-product-link a,a.ask-a-question,input.vm-default,a.product-details,a.details,div.details,button.default{
+background:#9bbf4c;
+border:solid #9bbf4c 1px;
+color:#fff;
+font-weight:400;
+font-size:17px;
+text-decoration:none;
+padding:5px 5px 4px;
+margin:10px 0 0 0px;
+text-align:center;
+}
+
+span.title{
+background: #fff url(../../images/styles/style3/bg-module-bottom.png) repeat-x;
+padding:7px 7px 17px 7px;
+color:#fff;
+font-weight:400;
+display:block;
+border:dotted #784747 0px;
+font-size:24px;
+margin:0 0 6px;
+}
+.customer-reviews h4{
+background: #fff url(../../images/styles/style3/bg-module-bottom.png) repeat-x;
+padding:7px 7px 17px 7px;
+color:#fff;
+font-weight:400;
+display:block;
+border:dotted #784747 0px;
+font-size:24px;
+margin:0 0 6px;
+}
+span.addtocart-button input.addtocart-button,span.addtocart-button input.notify-button{
+background: #fff url(../../images/styles/style3/bg-module-bottom.png) repeat-x;
+color:#fff;
+font-weight:700;
+display:block;
+border:dotted #784747 0px;
+font-size:17px;
+cursor:pointer;
+height:34px;
+padding:4px 10px;
+margin:5px 12px 0
+}
+span.addtocart-button:hover input.addtocart-button:hover,span.addtocart-button:hover input.notify-button:hover{
+background: #fff url(../../images/styles/style3/bg-module-bottom.png) repeat-x;
+color:#fff;
+font-weight:700;
+display:block;
+border:dotted #784747 0px;
+font-size:17px;
+cursor:pointer;
+height:34px;
+padding:4px 10px;
+margin:5px 12px 0
+}
+
+.mod-wrapper h3.header,.module_dark h3.header{
+background: url(../../images/styles/style3/bg-module.png) repeat-x;
+color: #fff;
+font-size:26px;
+font-weight:700;
+line-height:normal;
+border-bottom:0px dashed #01b2de;
+border-top:0px dashed #01b2de;
+margin:0 0 10px;
+padding: 10px 0px;
+text-align:center;
+}
+
+.module_none .mod-wrapper h3 {
+margin:0 0 10px;
+padding: 5px 0px;
+}
+
+.module_text .mod-wrapper h3.header {
+font-size:9px;
+text-align:center
+}
+.nsrocket.rocket-vm .rocket-inner {
+border:0px dotted #784747; 
+background:#edf2df;
+border-top: 0px solid #aed9d8;
+padding:10px 10px 30px 10px;
+color: #000; 
+}
+.nsrocket:hover.rocket-vm:hover .rocket-inner:hover {
+border:0px dotted #784747; 
+border: 3px solid #f19f00;
+padding:10px 10px 20px 10px;
+color: #000; 
+}
+
+
+/*Top Level*/
+#hornav,#sublevel {position:relative;padding: 0 8px;}
+#hornav ul.cg-menu { margin: 10px}
+#sublevel ul.cg-menu { padding: 10px}
+#hornav .megacol,#sublevel .megacol {float:left}
+#sublevel ul.empty,#sublevel li.empty {height:0px!important;display:none} 
+#hornav ul li,#sublevel ul li{
+background:none;
+padding:0;
+margin:0
+}
+
+#hornav{background: url(../../images/styles/style3/bg-nav.png) repeat-x;
+height: 41px;
+border-top-style: dashed;
+border-bottom-style: dashed;
+border-top-color: #a7a5a1;
+border-bottom-color: #a7a5a1;
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 5px;
+padding-left: 10px;
+color: #fff;
+}
+#sublevel {
+background:#fff;
+border-top: 1px solid #FFF
+}
+
+#hornav ul.level-0,
+#sublevel ul.level-1{
+float:left;
+margin:0;
+padding:0
+}
+
+#hornav ul.level-0 > li.menu-item,
+#sublevel ul.level-1 > li.menu-item{
+font-family: 'Handlee', cursive;
+background:none;
+display:block;
+float:left;
+margin:0;
+padding:0;
+border-right: 2px dotted #a8cb5b;
+}
+
+#hornav ul.level-0 > li.menu-item > a.menu-item,
+#sublevel ul.level-1 > li.menu-item > a.menu-item{
+font-family: 'Handlee', cursive;
+display:block;
+font-weight:400;
+font-size:16px;
+line-height:normal;
+text-decoration:none;
+margin:0 2px;
+padding:10px 18px 8px 18px;
+color:#333;
+}
+
+#hornav ul li .submenu-inner,#sublevel ul li .submenu-inner {background:#9bbf4c;
+border: 4px solid #9bbf4c;}
+#hornav ul.level-1 > li.menu-item a.menu-item:hover, #hornav ul.level-1 > li.menu-item a.active {background:#fff}
+
+#hornav li.menu-item li.menu-item a.menu-item.active,#hornav li.menu-item li.menu-item a.menu-item:hover,
+#sublevel li.menu-item li.menu-item a.menu-item.active,#sublevel li.menu-item li.menu-item a.menu-item:hover {background-color:#93b743}
+
+#hornav li.menu-item li.menu-item a.menu-item,
+#sublevel li.menu-item li.menu-item a.menu-item {
+border-top:1px solid #a4c855;
+border-bottom:1px solid #a4c855;
+font-weight:400;
+font-size:12px
+}
+
+/*Submenu*/
+#hornav li .submenu,#sublevel li .submenu {
+position: absolute;
+display:none;
+z-index:9999;
+box-shadow: 0 5px 4px -3px #9bbf4c;
+}
+#hornav .group-title{overflow:hidden;border-bottom:5px solid #a4c855}

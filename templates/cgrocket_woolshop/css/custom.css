@@ -1,0 +1,185 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on CGrocket Framework   
+# ---------------------------------------------------------------
+# Author - CGrocket http://www.cgrocket.com
+# Copyright (C) 2011 - 2011 CGrocket.com. All Rights Reserved.
+# license - PHP files are licensed under  GNU/GPL V2
+# license - CSS  - JS - IMAGE files  are Copyrighted material 
+# Websites: http://www.cgrocket.com - http://www.leweb2.com
+-----------------------------------------------------------------*/
+
+/*Tabs*/
+div.cgtabs .tabs_buttons{
+background:#fff;
+margin:0 -1px;
+border-bottom:1px solid #e7e7e7
+}
+ul.tabs_container li.tab,ul.tabs_container li.tab span{
+float:left;
+font-size:14px;
+font-weight:500;
+cursor:pointer;
+margin:0;
+padding:0;
+border:0
+}
+ul.tabs_container li.tab{background:#eaeaea;color:#333!important}
+ul.tabs_container li.tab.tab_over{background:#dadada!important;color:#333!important;}
+ul.tabs_container li.tab.active {background:#fff!important;color:#333!important;}
+.cgtabs {border:1px solid #e7e7e7;border-top:0}
+
+/*Top Panel*/
+#toppanel-handler,.handler-left,.handler-right,.handler-mid{height:24px!important}
+#toppanel-handler{width:140px!important;bottom:-24px!important}
+.handler-right{padding:0 32px!important}
+.handler-mid {line-height:18px!important}
+
+/* 	TheNews Show */
+.rocket-blog .rocket-row {
+border-top:1px dotted #EAEAEA;
+margin-top:10px;
+}
+.rocket-blog .rocket-row:hover {
+border-top:1px dotted #fff
+}
+.rocket-blog .rocket-row.rocket-first {
+border-top:0;
+margin-top:0
+}
+h4.rocket-title a {
+color:#666;
+font-weight: 400;
+font-size: 14px;
+text-align:center;
+}
+
+.rocket-blog .rocket-links a.rocket-comments {
+color:#666;
+}
+
+/*Virtuemart layout*/
+.nsrocket.rocket-vm .rocket-inner {
+border:0px dotted #784747; 
+background:#fff url(../images/bg-item.png) repeat-x bottom;
+border-top: 3px solid #f19f00;
+padding:10px 10px 30px 10px;
+color: #000; 
+}
+.nsrocket:hover.rocket-vm:hover .rocket-inner:hover {
+border:0px dotted #784747; 
+background:#fff url(../images/bg-item.png) repeat-x bottom;
+border-top: 3px solid #f19f00;
+padding:10px 10px 20px 10px;
+color: #000; 
+}
+
+.rocket-vm-bar {
+padding-top:5px;
+}
+.nsrocket.rocket-vm p.rocket-vm-price {
+font-family: 'Handlee', cursive;
+color:#f6a200!important;
+float:left;
+text-align:left;
+font-size:17px;
+font-weight:700;
+margin:0px 0 5px 0
+}
+.nsrocket.rocket-vm:hover p.rocket-vm-price:hover {
+color:#f44747!important;}
+.nsrocket.rocket-vm .rocket-addtocart {
+background:none;
+background-image: url("../images/add-to-cart.png" );
+background-repeat: repeat left;
+background-attachment: scroll;
+background-position: 0px;
+width: 135px;
+text-align:right;
+float:right;
+}
+
+/*vmcategoriespro*/
+.lofmenu_virtuemart {
+width:100%;}
+.lofmenu_virtuemart ul.lofmenu {
+margin:0;
+padding:0;		
+position: relative;
+list-style-type:none;
+z-index: 666;}
+		
+.lofmenu_virtuemart ul.lofmenu li{
+width:100%;
+display:block;
+margin: 0;
+padding: 0;
+position:relative;}
+
+.lofmenu_virtuemart .lofmenu .lofitem1,
+.lofmenu_virtuemart .lofmenu .lofitem2 {}
+
+.lofmenu_virtuemart .lofmenu a {
+font-family: 'Handlee', cursive;
+background-color: #fff;
+display:block;
+color:#000;
+font-size:16px;
+position:relative;
+padding:6px 0;
+text-decoration:none;
+border-bottom:1px dotted #eaf8fb;
+-webkit-transition:background-color .3s ease-out, color .3s ease-out;
+-moz-transition:background-color .3s ease-out, color .3s ease-out;
+-o-transition:background-color .3s ease-out, color .3s ease-out;
+transition:background-color .3s ease-out, color .3s ease-out;}
+
+.lofmenu_virtuemart .lofmenu .lofactive > a{
+background-color: #eaf8fb;
+color: #222 }
+
+.lofmenu_virtuemart .lofmenu .ice-current > a{
+background-color:#f6f5f5;
+color: #222 }
+
+.lofmenu_virtuemart .lofmenu > .ice-current > a:before {
+content:"";
+background:url(images/cgrocket2.png) no-repeat center right;
+position:absolute;
+height:20px;
+width:14px;
+right:-24px}
+
+.lofmenu_virtuemart .lofmenu .lofitem1 img{
+margin:0 9px 0 5px;
+float:left;}
+
+.lofmenu_virtuemart .lofmenu .lofitem1 a span.counter {
+color:#666;
+padding-left:3px
+}
+
+/*CGrocket Banner Right*/
+#cg-banner-right {
+position:absolute;
+top:220px;
+right:0;
+width:34px;
+background:#fafafa;
+box-shadow:0 0 5px rgba(0,0,0,.2);
+position:fixed}
+#cg-banner-right .cg-inner {padding:3px 5px}
+#cg-banner-right img {margin:2px 0; opacity:.6}
+#cg-banner-right img:hover {opacity:1}
+
+/*CGrocket Banner Left*/
+#cg-banner-left {
+position:absolute;
+top:220px;
+left:0;
+width:49px;
+background:none;
+box-shadow:0 0 5px rgba(0,0,0,.2);
+position:fixed}
+#cg-banner-left .cg-inner {padding:3px 5px}
+#cg-banner-left img {margin:2px 0; opacity:.6}
+#cg-banner-left img:hover {opacity:1}

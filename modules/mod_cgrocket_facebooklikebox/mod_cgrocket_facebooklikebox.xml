@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="1.7"
+	client="site"
+	method="upgrade">
+	<name>CGrocket Facebook LikeBox</name>
+	<author>CGROCKET.COM</author>
+	<creationDate>May 2012</creationDate>
+	<copyright>Copyright (C) 2011-2012 CGROCKET. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@cgrocket.com</authorEmail>
+	<authorUrl>www.cgrocket.com</authorUrl>
+	<version>1.0.0</version>
+	<description><![CDATA[
+		<div class="cg_description">
+			<h3>CGrocket Facebook LikeBox</h3>	
+			<a href="http://www.cgrocket.com" target="_blank"><img src="http://www.cgrocket.com/images/rocket_mini.jpg"></a>
+			<p>Thank you for using our extension. If you find any issues or any ideas to improve the extension, please send us an email or post to the forum. We appreciate your help. Also we will release two templetes per month, you will easy to find a nice template for your joomla site. Please check our products here: <a href='http://www.cgrocket.com/'>Join our Clubs Now</a> to download all templates or extensions.</p>
+			<h3>Upgrade versions</h3>
+			<p>Your current versions is 1.0. <a target="_blank" href="http://www.cgrocket.com">Find our latest versions now</a>
+			</p>
+			<h3>About CGrocket.com & copyright</h3>	
+			<p>CGROCKET.COM is Professional Joomla template provider. We are focused on creating unique, attractive and clean templates without loosing flexibility and simplicity of customization
+			</p>
+			Copyright 2011 - 2012 <a target="_blank" href="http://www.cgrocket.com">http://www.cgrocket.com</a>	
+		</div>
+	]]>	
+	</description>
+	<files>
+		<filename module="mod_cgrocket_facebooklikebox">mod_cgrocket_facebooklikebox.php</filename>
+		<folder>tmpl</folder>
+		<folder>admin</folder>
+		<filename>index.html</filename>
+	</files>
+	<languages folder="languages">
+		<language tag="en-GB">en-GB.mod_cgrocket_facebooklikebox.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="href" type="text" size="33"
+					default="https://www.facebook.com/cgrocket"
+					label="CGROCKET_FACEBOOK_PAGE_URL_LABEL"
+					description="CGROCKET_FACEBOOK_PAGE_URL_DESC">
+				</field>
+				<field name="width" type="text" default="300" label="CGROCKET_FACEBOOK_PAGE_WIDTH_LABEL" description="CGROCKET_FACEBOOK_PAGE_WIDTH_DESC" />
+                <field name="height" type="text" default="556" label="CGROCKET_FACEBOOK_PAGE_HEIGHT_LABEL" description="CGROCKET_FACEBOOK_PAGE_HEIGHT_DESC" />
+                <field name="colorscheme" type="list" default="light" label="CGROCKET_FACEBOOK_PAGE_COLOR_SCHEME_LABEL" description="CGROCKET_FACEBOOK_PAGE_COLOR_SCHEME_DESC">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </field>
+				<field name="border_color" class="cgrocket_color"  type="text" default="" label="CGROCKET_FACEBOOK_PAGE_BORDER_COLOR_LABEL" description="CGROCKET_FACEBOOK_PAGE_BORDER_COLOR_DESC">
+                </field>
+				<field name="show_faces" class="cgrocket_switch" type="list" default="true" label="CGROCKET_FACEBOOK_PAGE_SHOW_FACES_LABEL" description="CGROCKET_FACEBOOK_PAGE_SHOW_FACES_DESC">
+                    <option value="false">No</option>
+                    <option value="true">Yes</option>
+                </field>
+				<field name="show_stream" class="cgrocket_switch" type="list" default="true" label="CGROCKET_FACEBOOK_PAGE_SHOW_STREAM_LABEL" description="CGROCKET_FACEBOOK_PAGE_SHOW_STREAM_DESC">
+                    <option value="false">No</option>
+                    <option value="true">Yes</option>
+                </field>
+				<field name="show_header" class="cgrocket_switch" type="list" default="true" label="CGROCKET_FACEBOOK_PAGE_SHOW_HEADER_LABEL" description="CGROCKET_FACEBOOK_PAGE_SHOW_HEADER_DESC">
+                    <option value="false">No</option>
+                    <option value="true">Yes</option>
+                </field>
+				<field name="force_wall" class="cgrocket_switch" type="list" default="false" label="CGROCKET_FACEBOOK_PAGE_FORCE_WALL_LABEL" description="CGROCKET_FACEBOOK_PAGE_FORCE_WALL_DESC">
+                    <option value="false">No</option>
+                    <option value="true">Yes</option>
+                </field>
+			</fieldset>
+			<fieldset
+				name="advanced">
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+			</fieldset>
+			<fieldset addfieldpath="/modules/mod_cgrocket_facebooklikebox/admin/formfield"
+				name="about" label="CGROCKET_ABOUT">
+				<field type="asset" name="asset" path="modules/mod_cgrocket_facebooklikebox/admin/" />
+				<field type="about" name="about"  path="modules/mod_cgrocket_facebooklikebox/admin/images"  />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
